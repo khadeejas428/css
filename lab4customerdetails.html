@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="keyword" content="IANA-managed Reserved Domains">
+	<meta name="description" content="Example Domains">
+	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+	<title></title>
+	<style type="text/css">
+		body{
+			border: 5px solid black;
+			width: 80%;
+			height: 580px;
+	        padding:50px;
+		}
+		.body{
+			margin: 0 auto;
+			width: auto;
+			
+		}
+		.main-containor{
+			display: flex;
+			justify-content: space-between;
+			padding-bottom: 50px;
+		}
+		 table ,th, td {
+			border: 1px solid black;
+			height: 50px;
+		}
+		table{
+			border-collapse: collapse;
+			width: 100%;
+			
+		}
+		td{
+			padding-left: 5px;
+		}
+		
+		a{
+			text-decoration: none;
+
+		}
+		a.previous {
+			background-color: #f1f1f1;
+			color: black;
+		}
+		a.next{
+           background-color: #f1f1f1;
+			color: black;
+		}
+		.button-button {
+			border-radius: 50%;
+			border-style: none;
+	     }                       
+		.footer{
+			display: flex;
+			justify-content: space-between;
+			}
+	</style>
+</head>
+<body>
+	<div class="body">
+	<div class="main-containor">
+
+<div class="list">
+	<p>show
+	<select>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option value="5"selected>5</option>
+	</select>
+entries</p>
+</div>
+
+	<h2>Customer Details</h2>
+
+<div class="seachingbox">
+<input type="search" name="search"placeholder="search">
+</div>
+</div>
+<table class="table-content">
+	<caption></caption>
+	<tbody>
+	<tr>
+		<th>#</th>
+		<th>Name</th>
+		<th>Address</th>
+		<th>City</th>
+		<th>Pincode</th>
+		<th>Country</th>
+		<th>Action</th>
+
+	</tr>
+	<tr>
+		<td>1</td>
+	    <td>Thomas Hardy</td>
+	    <td>89 Chiarsco Rd</td>
+	    <td>Portland</td>
+	    <td>91219</td>
+	   	<td>USA</td>
+		<td><i class="fa fa-eye" style="color: blue"></i>
+			<i class="fa fa-pencil" style="color: yellow"></i>
+			<i class="fa fa-trash" style="color: red"></i></td>
+	</tr>
+	<tr>
+		<td>2</td>
+	    <td>Maria Anders</td>
+	    <td>Obere Str.57</td>
+	    <td>Berlin</td>
+	    <td>12209</td>
+	   	<td>Germany</td>
+		<td><i class="fa fa-eye" style="color: blue"></i>
+			<i class="fa fa-pencil" style="color: yellow"></i>
+			<i class="fa fa-trash" style="color: red"></i></td>
+	</tr>
+	<tr>
+		<td>3</td>
+	    <td>Fran Wilson</td>
+	    <td>C/Araquil,67</td>
+	    <td>Madrid</td>
+	    <td>28023</td>
+	   	<td>Spain</td>
+		<td><i class="fa fa-eye" style="color: blue"></i>
+			<i class="fa fa-pencil" style="color: yellow"></i>
+			<i class="fa fa-trash" style="color: red"></i></td>
+	</tr>
+	<tr>
+		<td>4</td>
+	    <td>Dominic Perrier</td>
+	    <td>25,rue Lauriston</td>
+	    <td>Paris</td>
+	    <td>75016</td>
+	   	<td>France</td>
+		<td><i class="fa fa-eye" style="color: blue"></i>
+			<i class="fa fa-pencil" style="color: yellow"></i>
+			<i class="fa fa-trash" style="color: red"></i></td>
+	</tr>
+	<tr>
+		<td>5</td>
+	    <td>Martin Blank</td>
+	    <td>Via Monteblanco 34</td>
+	    <td>Turin</td>
+	   	<td>10100</td>
+		<td>Italy</td>
+		<td><i class="fa fa-eye" style="color: blue"></i>
+			<i class="fa fa-pencil" style="color: yellow"></i>
+			<i class="fa fa-trash" style="color: red"></i></td>
+	</tr>
+</tbody>
+</table>
+</div>
+<div class="footer">
+	<div class="footercontent">
+<p>Showing <b>5</b> out of<b> 25</b>entries</p>
+</div>
+<div class="buttons">
+<a href="#"class="previous">Previous</a>
+<button class="button-button">1</button>
+<button class="button-button">2</button>
+<button class="button-button"style="background-color: lightblue;">3</button>
+<button class="button-button">4</button>
+<button class="button-button">5</button>
+<a href="#"class="next">Next</a>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
